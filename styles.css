@@ -1,0 +1,59 @@
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+body {
+	background: black;
+}
+h1 {
+	margin: 0;
+	flex: 2;
+	font-family: "Quicksand", sans-serif;
+}
+img {
+	width: 50px;
+	height: 50px;
+}
+
+p {
+	margin-top: 0;
+	font-size: 1em;
+	font-family: "Quicksand", sans-serif;
+	font-weight: bold;
+}
+
+input {
+	font-family: "Quicksand", sans-serif;
+	border: none;
+	border-bottom: 1px solid rgb(243, 235, 235);
+}
+
+button {
+	background-color: rgb(170, 170, 170);
+	padding: 3px;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding: 5px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	padding: 4px 4px 4px 4px;
+}
+.body-right {
+	padding: 4px 4px 4px 4px;
+}
+.postcard-footer {
+	text-align: center;
+}
